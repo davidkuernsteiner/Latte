@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "latte"
+version = "0.1.0"
+description = "A description of the Latte project."
+
+[project.urls]
+"Source" = "https://github.com/Vchitect/Latte"
+
+[tool.setuptools.packages]
+find = { where = ["."] }
